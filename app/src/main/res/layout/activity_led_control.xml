@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.darkwhite.homeautomation.ledControl">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Switches"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/light" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_on"
+
+                android:text="ON"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/custom_button_off"
+                android:text="OFF"
+                android:textColor="@android:color/background_light"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="88dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="39dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/fan" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_on"
+                android:text="ON" />
+
+            <Button
+                android:id="@+id/button10"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="91dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_off"
+                android:text="OFF"
+                android:textColor="@android:color/background_light"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="88dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="42dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/tv" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_on"
+                android:text="ON"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="88dp" />
+
+            <Button
+                android:id="@+id/button11"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_off"
+                android:text="OFF"
+                android:textColor="@android:color/background_light"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="88dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="127dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/ac" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="184dp"
+                android:layout_height="50dp"
+
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_on"
+                android:text="ON"
+
+                tools:layout_editor_absoluteX="91dp"
+                tools:layout_editor_absoluteY="168dp" />
+
+            <Button
+                android:id="@+id/button12"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="174dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_off"
+                android:text="OFF"
+                android:textColor="@android:color/background_light"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="166dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_all_on"
+                android:text="ALL ON"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="336dp" />
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="167dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_all_off"
+                android:text="ALL OFF"
+                android:textColor="@android:color/background_light"
+                android:visibility="visible"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="88dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_disconnect"
+                android:text="Disconnect Pairing" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_more"
+
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right"
+            android:background="@drawable/custom_button_more"
+            android:layout_margin="50dp"
+            android:textAllCaps="false"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+
+            android:text="More" />
+
+
+    </LinearLayout>
+
+</ScrollView>
