@@ -25,7 +25,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Select A Pairing Device"
-                android:textColor="#0033FF"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/holo_blue_bright"
                 android:textSize="16dp"
                 tools:layout_editor_absoluteX="168dp"
                 tools:layout_editor_absoluteY="134dp" />
@@ -36,7 +37,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@android:color/holo_blue_light"
+                android:layout_margin="5dp"
+                android:background="@drawable/custom_button_more"
                 android:text="Pair"
                 tools:layout_editor_absoluteX="190dp"
                 tools:layout_editor_absoluteY="183dp" />
@@ -45,7 +47,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
             <ListView
                 android:id="@+id/listView"
