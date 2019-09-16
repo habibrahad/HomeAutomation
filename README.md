@@ -38,20 +38,20 @@
 
 </br>
 
----
+----
 
 **Release** repository & the **Demo** Application is available in [Release].
 
----
+----
 
 ### Screenshots
 
 <p align="center"><img src="src/screenshot1.png" /></p>
 
 
----
+----
 
-**How To Modify**
+### How To Modify
 
 You can Modify the Application for your Project or Personal Use.
 
@@ -63,8 +63,8 @@ You can Modify the Application for your Project or Personal Use.
     - Git.
     - Python.
 
----
-**Steps**
+----
+## Steps:
 
 ###### For Personal Use:
 
@@ -90,7 +90,7 @@ You can Modify the Application for your Project or Personal Use.
 
 <p align="center"><img src="src/snap-personal_use2.png" /></p>
 
----
+----
 
 ###### For Project:
 
@@ -107,20 +107,23 @@ You can Modify the Application for your Project or Personal Use.
 - To change the name of buttons or variables of the switches, edit the attributes `btn<number/name> =   (Button) findViewById(R.id.button<number/name>);` & `public void onClick (View v){sendSignal("<variable>");}` in the directory `java/com/darkwhite/homeautomation/ledControl`
 <p align="center"><img src="src/snap-project_use5.png" /></p>
    
-   
+----
+
+### By Default Variable Combination
+
+<p align="center"><img src="src/snap-default_variable_combination" /></p>
 
 
 
 
+----
 
-
----
-
-**Libraries & Dependencies**
+### Libraries & Dependencies
 - [Bluetooth Overview]:  Allows a device to wirelessly exchange data with other Bluetooth devices.
 - [Garuda Pixel]: Modern Dashboard UI Design.
 - [Stevdza San]: Custom Buttons Design.
----
+
+----
 ## Credit
 
 #### Spacialy Thanks to  <a href="https://www.facebook.com/isfaar.jubair">Isfaar Chy</a> for the support and help.
