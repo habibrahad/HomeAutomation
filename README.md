@@ -6,7 +6,7 @@
 # Home Automation
 
 
-<p align="center"><img src="src/Home_Screen.png" /></p>
+<p align="center"><img src="src/Home_automation.png" /></p>
 
 **Requirements:**
 - Android Studio 3.5 or better.
