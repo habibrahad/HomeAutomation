@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">        HomeAutomation</string>
+
+    <string name="switches">        Switches</string>
+    <string name="on">              ON</string>
+    <string name="about_me">        <a href="https://habibrahad.github.io">About Myself</a> </string>
+
+
+    <string name= "sourcecode">     <a href="https://github.com/habibrahad/HomeAutomation">Source Code</a>   </string>
+
+
+    <string name="facebook">        <a href="https://www.facebook.com/habib.reza.karim">Habib Rahad</a></string>
+
+
+    <string name= "faq">            <a href="mailto:habib.reza.karim@gmail.com">FAQ</a>    </string>
+
+
+    <string name="Select_text">     Select A Pairing Device</string>
+    <string name="pair_text">       Pair</string>
+</resources>
+
+
+
+
+
+
+
+
+
