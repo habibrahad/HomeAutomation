@@ -40,7 +40,7 @@
             android:layout_height="80dp">
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/button13"
                 android:layout_width="100dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
