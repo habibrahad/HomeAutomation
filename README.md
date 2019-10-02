@@ -111,7 +111,7 @@ You can Modify the Application for your Project or Personal Use.
 
 ### By Default Variable Combination
 
-<p align="center"><img src="src/snap-default_variable_combination" /></p>
+<p align="center"><img src="src/snap-default_variable_combination.png" /></p>
 
 
 
